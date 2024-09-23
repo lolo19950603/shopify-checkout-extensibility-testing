@@ -3,7 +3,7 @@
 client_id = "3cb5abc6445409852b8b1db1608d720c"
 name = "checkout-extensibility-testing"
 handle = "checkout-extensibility-testing-2"
-application_url = "https://wonder-accessory-arguments-ppm.trycloudflare.com"
+application_url = "https://alfred-stake-expand-eg.trycloudflare.com"
 embedded = true
 
 [build]
@@ -13,13 +13,13 @@ include_config_on_deploy = true
 
 [access_scopes]
 # Learn more at https://shopify.dev/docs/apps/tools/cli/configuration#access_scopes
-scopes = "write_products"
+scopes = "read_checkouts,read_customers,write_checkouts,write_customers,write_orders,write_products"
 
 [auth]
 redirect_urls = [
-  "https://wonder-accessory-arguments-ppm.trycloudflare.com/auth/callback",
-  "https://wonder-accessory-arguments-ppm.trycloudflare.com/auth/shopify/callback",
-  "https://wonder-accessory-arguments-ppm.trycloudflare.com/api/auth/callback"
+  "https://alfred-stake-expand-eg.trycloudflare.com/auth/callback",
+  "https://alfred-stake-expand-eg.trycloudflare.com/auth/shopify/callback",
+  "https://alfred-stake-expand-eg.trycloudflare.com/api/auth/callback"
 ]
 
 [webhooks]
